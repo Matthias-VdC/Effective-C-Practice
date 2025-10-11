@@ -18,4 +18,4 @@ int main(void) {
     struct S *bad_s_ptr = (struct S *)bad_buff; // Wrong pointer alignment
     
     struct S *good_s_ptr = (struct S *)good_buff; // Correct pointer alignment
-} 
+}
